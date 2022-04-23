@@ -19,7 +19,10 @@
 		
 		<view class="contentt">
 			<view class="pages_1" v-if="index==1">
-				<image class="pages_1_img" src="https://edu-xcx.oss-cn-hangzhou.aliyuncs.com/cash/fjt.webp" mode=""></image>
+				<image class="pages_1_img" src="../../static/1.png" mode=""></image>
+				<image class="pages_1_img" src="../../static/2.png" mode=""></image>
+				<image class="pages_1_img" src="../../static/3.png" mode=""></image>
+				<image class="pages_1_img" src="../../static/4.png" mode=""></image>
 			</view>
 			<view class="pages_2" v-if="index==2">
 				<view class="pages_2_left">
