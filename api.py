@@ -7,11 +7,14 @@ from flask_restful import Resource, Api, reqparse
 import vmodel
 import pandas as pd
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
 api = Api(app)# create new model object
 # data = json.dumps({"contract_address": '0xBBa205283253E7aDB8Be4A0b03600c9AB4924974',
 #                         "token_id": '1000'})
+CORS(app, supports_credentials=True)
+
 
 parser = reqparse.RequestParser()
 parser.add_argument('query')
